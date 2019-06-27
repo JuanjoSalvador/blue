@@ -1,0 +1,31 @@
+---
+layout: default
+title: Home
+---
+
+<div class="frontpage">
+  {% for post in paginator.posts %}
+      <div>
+        <time datetime="{{ post.date }}" class="frontpage-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <h3 class="title is-3">{{ post.title }}</h3>
+        </a>
+
+        <p>
+          {{ post.content | truncatewords: 40 | strip_html }}
+        </p>
+
+      </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <span>{{ paginator.page }}</span>
+</div>

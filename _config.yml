@@ -1,0 +1,30 @@
+# Permalinks
+#permalink:      pretty
+
+# Setup
+title:          Juanjo Salvador
+subtitle:       Dev en fase beta
+paginate:       5
+baseurl:        
+url:            "https://jsalvador.me"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+highlighter:    rouge
+
+# About
+author:
+  name:         Juanjo Salvador
+  url:          http://jsalvador.me
+  email:        juanjosalvador@netc.eu
+
+# Custom vars
+version:        3.8.5
+paginate:       5
+
+plugins: [jekyll-paginate]
