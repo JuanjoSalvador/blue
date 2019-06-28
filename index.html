@@ -4,19 +4,25 @@ title: Home
 ---
 
 <div class="frontpage">
-  {% for post in paginator.posts %}
-      <div>
-        <time datetime="{{ post.date }}" class="frontpage-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <h3 class="title is-3">{{ post.title }}</h3>
-        </a>
+    {% for post in paginator.posts %}
+        <div class="frontpage-item">
+            <time datetime="{{ post.date }}" class="frontpage-time">{{ post.date | date: "%B %d, %Y" }}</time>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h3 class="title is-3">{{ post.title }}</h3>
+            </a>
 
-        <p>
-          {{ post.content | truncatewords: 40 | strip_html }}
-        </p>
+            <p>
+                {{ post.content | truncatewords: 60 | strip_html }}
+            </p>
 
-      </div>
-  {% endfor %}
+            <p class="frontpage-item-readmore">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="button is-warning">
+                   <strong>Read more</strong>
+                </a>
+            </p>
+            <br><br>
+        </div>
+    {% endfor %}
 </div>
 
 <div class="pagination">

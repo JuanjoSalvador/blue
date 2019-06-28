@@ -7,7 +7,7 @@
         <section class="hero is-info">
             <div class="hero-body">
                 <div class="container main">
-                    <div class="columns">
+                    <div class="columns is-mobile">
                         <div class="column">
                             <h1 class="title is-1"><a href="/">{{ site.title }}</a></h1>
                             <h2 class="subtitle is-3">{{ site.subtitle }}</h2>
@@ -18,7 +18,13 @@
         </section>
 
         <div class="container">
-            {{ content }}
+            <div class="columns is-mobile">
+                <div class="column"></div>
+                <div class="column is-four-fifths">
+                    {{ content }}
+                </div>
+                <div class="column"></div>
+            </div>
         </div>
 
         <footer class="footer">
