@@ -3,7 +3,7 @@
 
 # Setup
 title:          Blue
-subtitle:       Just another Jekyll's theme
+subtitle:       Minimalist Jekyll theme (based on Bulma)
 paginate:       5
 baseurl:        
 url:            "https://jsalvador.me"
