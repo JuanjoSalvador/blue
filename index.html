@@ -6,17 +6,17 @@ title: Home
 <div class="frontpage">
     {% for post in paginator.posts %}
         <div class="frontpage-item">
-            <time datetime="{{ post.date }}" class="frontpage-time">{{ post.date | date: "%B %d, %Y" }}</time>
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <h3 class="title is-3">{{ post.title }}</h3>
             </a>
+            <time datetime="{{ post.date }}" class="frontpage-time has-text-grey-light">{{ post.date | date: "%B %d, %Y" }}</time>
 
             <p>
                 {{ post.content | truncatewords: 60 | strip_html }}
             </p>
 
             <p class="frontpage-item-readmore">
-                <a href="{{ post.url | prepend: site.baseurl }}" class="button is-warning">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="button is-info">
                    <strong>Read more</strong>
                 </a>
             </p>
@@ -33,5 +33,9 @@ title: Home
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
 
-  <span>{{ paginator.page }}</span>
+  <span class="paginator">
+    <strong>
+      {{ paginator.page }}
+    </strong>
+  </span>
 </div>

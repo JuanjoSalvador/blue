@@ -17,20 +17,23 @@
             </div>
         </section>
 
-        <div class="container">
-            <div class="columns is-mobile">
-                <div class="column"></div>
-                <div class="column is-four-fifths">
-                    {{ content }}
+        <section class="section">
+            <div class="container">
+                <div class="columns is-mobile">
+                    <div class="column">
+                        {{ content }}
+                    </div>
                 </div>
-                <div class="column"></div>
             </div>
-        </div>
+        </section>
 
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>
-                    Made with <span style="color: #e25555;">&hearts;</span> by Juanjo Salvador
+                    &copy; {{ site.title }} by {{ site.author.name }}
+                </p>
+                <p>
+                    Theme <a href="https://github.com/JuanjoSalvador/blue">Blue</a> made with <span style="color: #e25555;">&hearts;</span> by Juanjo Salvador
                 </p>
             </div>
         </footer>
