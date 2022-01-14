@@ -8,14 +8,17 @@ paginate:       5
 baseurl:        
 url:            "https://jsalvador.me"
 
+color:          primary
+
 # Assets
 sass:
   sass_dir:     _sass
   style:        :compressed
 
-# Build settings
-markdown:       kramdown
-highlighter:    rouge
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
 # About
 author:
