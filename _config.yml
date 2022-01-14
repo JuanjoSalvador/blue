@@ -26,5 +26,6 @@ kramdown:
 # Custom vars
 version:        3.8.5
 paginate:       1
+paginate_path: "/page:num/"
 
 plugins: [jekyll-paginate]
