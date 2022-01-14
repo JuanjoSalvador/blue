@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "blue-jekyll-theme"
-  spec.version       = "0.2.0"
+  spec.version       = "0.2.2"
   spec.authors       = ["Juanjo Salvador"]
   spec.email         = ["juanjosalvador@netc.eu"]
 
@@ -13,7 +13,6 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   
