@@ -2,11 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "blue"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Juanjo Salvador"]
   spec.email         = ["juanjosalvador@netc.eu"]
 
-  spec.summary       = "Custom and personal Jekyll's theme"
+  spec.summary       = "Minimalist Jekyll theme based on Bulma"
+  spec.description   = "Minimalist Jekyll theme based on Bulma with customizable colors, focused on readability"
   spec.homepage      = "https://jsalvador.me/blog/"
   spec.license       = "MIT"
 
