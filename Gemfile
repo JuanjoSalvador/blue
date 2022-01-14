@@ -2,5 +2,7 @@
 
 source "https://rubygems.org"
     gem 'jekyll-paginate'
-    gem 'rouge'
+    gem 'kramdown-parser-gfm'
+    gem 'i18n'
+
 gemspec
