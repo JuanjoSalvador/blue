@@ -4,11 +4,14 @@
 # Setup
 title:          Blue
 subtitle:       Minimalist Jekyll theme (based on Bulma)
-paginate:       5
 baseurl:        
 url:            "https://jsalvador.me"
-
 color:          primary
+
+author:
+  name:         Juanjo Salvador
+  url:          http://jsalvador.me
+  email:        juanjosalvador@netc.eu
 
 # Assets
 sass:
@@ -20,14 +23,8 @@ highlighter: rouge
 kramdown:
   input: GFM
 
-# About
-author:
-  name:         Juanjo Salvador
-  url:          http://jsalvador.me
-  email:        juanjosalvador@netc.eu
-
 # Custom vars
 version:        3.8.5
-paginate:       5
+paginate:       1
 
 plugins: [jekyll-paginate]
