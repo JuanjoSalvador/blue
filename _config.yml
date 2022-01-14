@@ -8,6 +8,8 @@ paginate:       5
 baseurl:        
 url:            "https://jsalvador.me"
 
+color:          primary
+
 # Assets
 sass:
   sass_dir:     _sass
