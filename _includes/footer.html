@@ -4,4 +4,25 @@
             Made with <span style="color: #e25555;">&hearts;</span> by Juanjo Salvador
         </p>
     </div>
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column is-centered">
+            {% if site.author.github %}
+                <a href="https://github.com/{{ site.author.github }}" class="social-link"><i class="fab fa-github-alt fa-2x"></i></a>
+            {% endif %}
+
+            {% if site.author.twitter %}
+                <a href="https://twitter.com/{{ site.author.twitter }}" class="social-link"><i class="fab fa-twitter fa-2x"></i></a>
+            {% endif %}
+
+            {% if site.author.mastodon %}
+                <a href="{{ site.author.mastodon }}" rel="me" class="social-link"><i class="fab fa-mastodon fa-2x"></i></a>
+            {% endif %}        
+        
+            {% if site.author.email %}
+                <a href="mailto:{{ site.author.email }}" class="social-link"><i class="fas fa-envelope fa-2x"></i></a>
+            {% endif %}
+        </div>
+        <div class="column"></div>
+    </div>
 </footer>
