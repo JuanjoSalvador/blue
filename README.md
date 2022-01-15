@@ -1,8 +1,8 @@
 # Blue
 
-> Minimalist Jekyll theme (based on Bulma)
+Minimalist Jekyll theme based on Bulma.
 
-Work in progress!
+This work is on active development, but currently suitable for use on production.
 
 [DEMO](https://jsalvador.me/blue)
 
