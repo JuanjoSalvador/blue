@@ -3,7 +3,7 @@ permalink:      pretty
 
 # Setup
 title:          Blue
-subtitle:       Minimalist Jekyll theme (based on Bulma)
+subtitle:       Minimalist Jekyll theme based on Bulma.
 baseurl:        
 url:            "https://jsalvador.me"
 color:          primary
@@ -11,7 +11,7 @@ color:          primary
 author:
   name:         Juanjo Salvador
   url:          http://jsalvador.me
-  email:        juanjosalvador@netc.eu             # Place your email here
+  email:                                           # Place your email here
   github:       JuanjoSalvador                     # Place your GitHub username here
   twitter:      Linuxneitor                        # Place your twitter username here
   mastodon:     https://mastodon.social/@jsalvador # Place your profile URL here
