@@ -18,7 +18,6 @@ author:
 
 # Assets
 sass:
-  #sass_dir:     _sass
   style:        compressed
 
 markdown: kramdown
@@ -28,7 +27,7 @@ kramdown:
 
 # Custom vars
 version:        3.8.5
-paginate:       1
+paginate:       5                                  # Default pagination is 5 post per page
 paginate_path: "/page:num/"
 
 plugins: 
