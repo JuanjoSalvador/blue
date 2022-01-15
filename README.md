@@ -6,7 +6,7 @@ This work is on active development, but currently suitable for use on production
 
 [DEMO](https://jsalvador.me/blue)
 
-## How to install
+## Installation (GitHub Pages)
 
 1. Fork this repository.
 2. Rename your fork as `your-username*.github.io`
@@ -15,21 +15,61 @@ This work is on active development, but currently suitable for use on production
 5. Enjoy and submit me any issue or improvement!
 
 
+## Installation (using RubyGems)
+
+1. Add `blue-jekyll-theme` to your `Gemfile`.
+2. Update your gems.
+    ```
+    $ bundle update
+    ```
+3. Update your `_config.yml` file, replace your current theme by `blue-jekyll-theme` and add the needed plugins:
+    * `jekyll-paginate`
+    * `jekyll-seo-tag`
+
 ## Config variables
 
-```
-title:          My Awesome Blog
-subtitle:       My Awesome Blog Subtitle
-url:            "https://foobar.dev"
-color:          primary
-
-author:
-  name:         Juanjo Salvador
-  url:          http://jsalvador.me
-  email:        juanjosalvador@netc.eu
-```
+Add or remove variables from the sample config file.
 
 Available colors are the same for Bulma (default ones). You can choose between `primary` (light turquoise), `info` (blue), `warning` (yellow), `danger`(red) and `dark` (black). It will switch the header color. 
+
+```
+# Permalinks
+permalink:      pretty
+
+# Setup
+title:          My Site
+subtitle:       My fancy site.
+baseurl:        
+url:            "https://example.dev"
+
+color:          danger
+
+author:
+  name:         Jhon Doe
+  url:          http://example.dev
+  email:                                           # Place your email here
+  github:       JohnDoe                            # Place your GitHub username here
+  twitter:      JohnDoe                            # Place your twitter username here
+  mastodon:     https://instance.dev/@johndoe      # Place your profile URL here
+
+# Assets
+sass:
+  style:        compressed
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# Custom vars
+version:        3.8.5
+paginate:       5                                  # Default pagination is 5 post per page
+paginate_path: "/page:num/"                        # Default route for pages
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+```
 
 ## Licencse
 
