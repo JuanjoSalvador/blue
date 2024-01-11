@@ -2,9 +2,20 @@
 
 Minimalist Jekyll theme based on Bulma.
 
-This work is on active development, but currently suitable for use on production.
+This work is on active development, but currently suitable for use on production and GitHub pages.
 
 [DEMO](https://jsalvador.me/blue)
+
+## What does comes with Blue?
+
+Blue comes with the following features:
+
+* Bulma CSS library.
+* Kramdown as Markdown engine.
+* MathJax for LaTeX-math support.
+* Syntax highlight built-in.
+* Pagination (via `jekyll-paginate` rubygem).
+* Search engine optimization (via `jekyll-seo-tag` rubygem).
 
 ## Installation (GitHub Pages)
 
@@ -23,6 +34,7 @@ This work is on active development, but currently suitable for use on production
     $ bundle update
     ```
 3. Update your `_config.yml` file, replace your current theme by `blue-jekyll-theme` and add the needed plugins:
+
     * `jekyll-paginate`
     * `jekyll-seo-tag`
 
@@ -30,7 +42,7 @@ This work is on active development, but currently suitable for use on production
 
 Add or remove variables from the sample config file.
 
-Available colors are the same for Bulma (default ones). You can choose between `primary` (light turquoise), `info` (blue), `warning` (yellow), `danger`(red) and `dark` (black). It will switch the header color. 
+Available colors are the same for Bulma (default ones). You can choose between `primary` (light turquoise), `info` (blue), `warning` (yellow), `danger`(red), `dark` (black) and `light` (default). It will switch the header color. 
 
 ```
 # Permalinks
