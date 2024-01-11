@@ -6,7 +6,7 @@ title:          Blue
 subtitle:       Minimalist Jekyll theme based on Bulma.
 baseurl:        
 url:            "https://jsalvador.me"
-color:          primary
+color:          light
 
 author:
   name:         Juanjo Salvador
