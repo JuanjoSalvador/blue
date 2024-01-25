@@ -3,10 +3,11 @@ permalink:      pretty
 
 # Setup
 title:          Blue
-subtitle:       Minimalist Jekyll theme based on Bulma.
+description:    Minimalist Jekyll theme based on Bulma.
 baseurl:        
 url:            "https://jsalvador.me"
-color:          light
+
+color:          link
 
 author:
   name:         Juanjo Salvador
@@ -15,6 +16,11 @@ author:
   github:       JuanjoSalvador                     # Place your GitHub username here
   twitter:      Linuxneitor                        # Place your twitter username here
   mastodon:     https://mastodon.social/@jsalvador # Place your profile URL here
+
+twitter:
+  username: Linuxneitor
+  card: summary
+locale: es_ES
 
 # Assets
 sass:
@@ -26,10 +32,11 @@ kramdown:
   input: GFM
 
 # Custom vars
-version:        3.8.5
+version:        4.3.3
 paginate:       5                                  # Default pagination is 5 post per page
 paginate_path: "/page:num/"
 
 plugins: 
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed

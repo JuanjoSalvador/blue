@@ -5,4 +5,5 @@ source "https://rubygems.org"
     gem 'kramdown-parser-gfm'
     gem 'i18n'
     gem 'jekyll-seo-tag'
+    gem 'jekyll-feed'
 gemspec
