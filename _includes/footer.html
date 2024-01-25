@@ -1,12 +1,17 @@
 <footer class="footer">
     <div class="content has-text-centered">
         <p>
-            Theme <a href="https://github.com/JuanjoSalvador/blue">Blue</a>. Made with <span style="color: #e25555;">❤️</span> by Juanjo Salvador
+            Made with <span style="color: #e25555;">❤️</span> by Juanjo Salvador
+        </p>
+        <p>
+            Theme <a href="https://github.com/JuanjoSalvador/blue">Blue</a> by <a href="https://jsalvador.me/">Juanjo Salvador</a>.
         </p>
     </div>
     <div class="columns">
         <div class="column"></div>
         <div class="column is-centered">
+            <a href="{{ site.baseurl }}/feed.xml" class="social-link"><i class="fas fa-rss fa-2x"></i></a>
+
             {% if site.author.github %}
                 <a href="https://github.com/{{ site.author.github }}" class="social-link"><i class="fab fa-github-alt fa-2x"></i></a>
             {% endif %}
