@@ -16,6 +16,7 @@ Blue comes with the following features:
 * Syntax highlight built-in.
 * Pagination (via `jekyll-paginate` rubygem).
 * Search engine optimization (via `jekyll-seo-tag` rubygem).
+* RSS support by default (via `jekyll-feed` rubygem).
 
 ## Installation (GitHub Pages)
 
