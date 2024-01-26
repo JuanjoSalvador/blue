@@ -38,6 +38,7 @@ Blue comes with the following features:
 
     * `jekyll-paginate`
     * `jekyll-seo-tag`
+    * `jekyll-feed`
 
 ## Config variables
 
